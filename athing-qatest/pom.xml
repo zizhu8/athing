@@ -33,12 +33,12 @@
         </dependency>
         <dependency>
             <groupId>com.github.ompc.athing</groupId>
-            <artifactId>athing-thing-impl-aliyun</artifactId>
+            <artifactId>athing-aliyun-thing-impl</artifactId>
             <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.github.ompc.athing</groupId>
-            <artifactId>athing-product-impl-aliyun</artifactId>
+            <artifactId>athing-aliyun-product-impl</artifactId>
             <version>${revision}</version>
         </dependency>
         <dependency>

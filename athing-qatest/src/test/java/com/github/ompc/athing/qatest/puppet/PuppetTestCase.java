@@ -24,9 +24,11 @@ public class PuppetTestCase extends PuppetSupport {
 
     @Test
     public void test$service$echo() throws ThingProductException {
+
         final String words = UUID.randomUUID().toString();
         final IThingProductService<Echo, Result<String>> thingProductService = puppetThingProduct.getThingProductService("echo");
         final IThingToken<Result<String>> token = thingProductService.service(THING_ID, new Echo(words));
+
         Assert.assertNotNull(token.getData());
         Assert.assertEquals(PRODUCT_ID, token.getProductId());
         Assert.assertEquals(THING_ID, token.getThingId());

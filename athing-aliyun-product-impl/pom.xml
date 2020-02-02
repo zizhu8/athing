@@ -8,38 +8,44 @@
         <artifactId>athing</artifactId>
         <version>${revision}</version>
     </parent>
-    <artifactId>athing-thing-impl-aliyun</artifactId>
-    <name>athing-thing-impl-aliyun</name>
+    <artifactId>athing-aliyun-product-impl</artifactId>
+    <name>athing-aliyun-product-impl</name>
     <dependencies>
         <dependency>
             <groupId>com.github.ompc.athing</groupId>
-            <artifactId>athing-thing</artifactId>
+            <artifactId>athing-product</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.ompc.athing</groupId>
             <artifactId>athing-aliyun-common</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>jul-to-slf4j</artifactId>
-            <version>1.7.22</version>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-iot</artifactId>
+            <version>7.3.0</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.paho</groupId>
-            <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
-            <version>1.2.1</version>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.4.9</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.qpid</groupId>
+            <artifactId>qpid-jms-client</artifactId>
+            <version>0.48.0</version>
+        </dependency>
+
     </dependencies>
 </project>

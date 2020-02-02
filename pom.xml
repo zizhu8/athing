@@ -28,8 +28,8 @@
         <module>athing-product</module>
         <module>athing-thing</module>
         <module>athing-qatest</module>
-        <module>athing-product-impl-aliyun</module>
-        <module>athing-thing-impl-aliyun</module>
+        <module>athing-aliyun-product-impl</module>
+        <module>athing-aliyun-thing-impl</module>
         <module>athing-aliyun-common</module>
     </modules>
     <dependencyManagement>
@@ -41,7 +41,7 @@
             </dependency>
             <dependency>
                 <groupId>com.github.ompc.athing</groupId>
-                <artifactId>athing-thing-impl-aliyun</artifactId>
+                <artifactId>athing-aliyun-thing-impl</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -51,7 +51,7 @@
             </dependency>
             <dependency>
                 <groupId>com.github.ompc.athing</groupId>
-                <artifactId>athing-product-impl-aliyun</artifactId>
+                <artifactId>athing-aliyun-product-impl</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
